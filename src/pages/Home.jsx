@@ -187,7 +187,7 @@ const Home = () => {
               <img 
                 src={getAssetPath(partner.logo)} 
                 alt={`${partner.name} logo`} 
-                className="partner-logo" 
+                className={`partner-logo ${partner.name === "Rejlers" ? "partner-logo-rejlers" : ""}`}
                 onError={(e) => {e.target.style.display='none'}} 
               />
               <span className="partner-name">{partner.name}</span>
