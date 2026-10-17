@@ -104,6 +104,7 @@ const globalRegions = [
   { region: "Americas", countries: "United States of America, Colombia" },
   { region: "Europe & Africa", countries: "South Africa, Nigeria, Egypt, Germany, Hungary" },
   { region: "Australia", countries: "Australia" }
+];
 
 
 const Home = () => {
