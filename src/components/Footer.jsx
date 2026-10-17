@@ -28,7 +28,7 @@ const Footer = () => {
           </div>
           <div className="contact-row">
             <FaEnvelope className="footer-icon" />
-            <a href="mailto:sales@izzibs.com">sales@izzibs.com</a>
+            <a href="mailto:info@izzibs.com">info@izzibs.com</a>
           </div>
         </div>
 

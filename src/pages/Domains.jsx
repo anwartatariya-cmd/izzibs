@@ -72,7 +72,8 @@ const domainsData = [
       "Results Visualisation and Key Performance Indicators"
     ],
     technologies: [
-      "AVEVA Process Optimization (ROMeo)"
+      "AVEVA Process Optimization (ROMeo)",
+      "LP based enterprise wide optimization"
     ]
   },
   {

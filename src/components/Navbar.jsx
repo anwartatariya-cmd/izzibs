@@ -43,7 +43,7 @@ const Navbar = () => {
 
       <div className="nav-icons">
         <a href="tel:+917383785636" className="icon-link"><FaPhoneAlt /></a>
-        <a href="mailto:sales@izzibs.com" className="icon-link"><FaEnvelope /></a>
+        <a href="mailto:info@izzibs.com" className="icon-link"><FaEnvelope /></a>
         <a href="https://wa.me/917383785636" className="icon-link"><FaWhatsapp /></a>
       </div>
     </nav>

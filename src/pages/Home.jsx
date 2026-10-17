@@ -67,7 +67,7 @@ const partnersList = [
   { name: "Shell", logo: "shell.png" },
   { name: "Petrogenium", logo: "petrogenium.png" },
   { name: "Accenture", logo: "accenture.png" },
-  { name: "Tech Mahindra", logo: "techmahindra.png" },
+  { name: "Rejlers", logo: "logos/rejlers.png" },
   { name: "Jaaji Technologies", logo: "jaajitech.png" }
 ];
 
