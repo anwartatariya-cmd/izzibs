@@ -160,13 +160,15 @@ const Domains = () => {
   const location = useLocation();
 
   useEffect(() => {
+    let activeIdFrame;
+
     if (location.hash) {
       const id = location.hash.replace('#', '');
       const element = document.getElementById(id);
       if (element) {
         const y = element.getBoundingClientRect().top + window.scrollY - 100;
         window.scrollTo({ top: y, behavior: 'smooth' });
-        setActiveId(id);
+        activeIdFrame = requestAnimationFrame(() => setActiveId(id));
       }
     } else {
         window.scrollTo(0, 0);
@@ -189,7 +191,10 @@ const Domains = () => {
     };
 
     window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+      if (activeIdFrame !== undefined) cancelAnimationFrame(activeIdFrame);
+    };
   }, [location]);
 
   const scrollToSection = (id) => {

@@ -1,7 +1,6 @@
 {
   "name": "izzibs",
   "private": true,
-  "homepage": "https://izzibs.com",
   "version": "0.0.0",
   "type": "module",
   "scripts": {

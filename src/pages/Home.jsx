@@ -102,9 +102,9 @@ const globalRegions = [
   { region: "South & East Asia", countries: "India, South Korea, Thailand, Vietnam, Malaysia, Indonesia, Philippines, China" },
   { region: "Central & West Asia", countries: "Saudi Arabia, UAE, Oman, Qatar, Azerbaijan" },
   { region: "Americas", countries: "United States of America, Colombia" },
-  { region: "Europe & Africa", countries: "South Africa, Nigeria, Germany" },
+  { region: "Europe & Africa", countries: "South Africa, Nigeria, Egypt, Germany, Hungary" },
   { region: "Australia", countries: "Australia" }
-];
+
 
 const Home = () => {
 

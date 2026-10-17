@@ -31,6 +31,8 @@ const countryColors = {
   "South Africa": "#fbbf24",
   "Nigeria": "#fbbf24",
   "Germany": "#fbbf24",
+  "Hungary": "#fbbf24",
+  "Egypt": "#fbbf24",
 
   // Australia (color-4: #a78bfa)
   "Australia": "#a78bfa"
