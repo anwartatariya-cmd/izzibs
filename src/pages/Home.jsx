@@ -213,8 +213,8 @@ const Home = () => {
               we offer tailored services to meet the unique needs of each client.
             </p>
             {/* FIXED DOWNLOAD BUTTON */}
-            <a 
-              href={getAssetPath("IZZIBS Company Profile - Mar 2026.pdf")} 
+            <a
+              href={getAssetPath("IZZIBS Company Profile.pdf")}
               download="IZZIBS Company Profile.pdf"
               className="download-btn"
             >

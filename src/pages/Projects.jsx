@@ -20,8 +20,8 @@ const getTechClass = (tech) => {
 // --- PROJECT DATA ---
 const projectsData = {
   Planning: [
-    { year: "2026", client: "Rejlers' Client", location: "Middle East", tech: "AspenTech", logo: "/logos/rejlers.png", description: "Updated an Aspen PIMS-AO model and evaluated throughput bottlenecks and economic sensitivities using Aspen XPIMS." },
-    { year: "2025-28", client: "Bangchak", location: "Thailand", tech: "AVEVA", logo: "/logos/bangchak.png", description: "Supporting AVEVA supply chain models, standardized crude pricing sets, and optimized custom Excel input and client reporting templates." },
+    { year: "2026", client: "Rejlers' Client", location: "Middle East", tech: "AspenTech", logo: "/logos/rejlers.png", description: "LP model support for updating Aspen PIMS-AO model for feasibility evaluations during FEED stage through Aspen XPIMS." },
+    { year: "2025-28", client: "Bangchak", location: "Thailand", tech: "AVEVA", logo: "/logos/bangchak.png", description: "Provide technical model support for 2 refinery specific AVEVA Unified Supply Chain (AUSC) Planning models and one AUSC Network model." },
     { year: "2025", client: "ADNOC", location: "Middle East", tech: "AVEVA", logo: "/logos/adnoc.png", description: "Implemented an Enterprise Real-Time Optimizer (eRTO) integrating AVEVA and Cognite platforms to maximize enterprise-wide economic performance." },
     { year: "2024", client: "Rejlers' Client", location: "Middle East", tech: "AspenTech", logo: "/logos/rejlers.png", description: "Updated an Aspen PIMS-AO model and evaluated throughput bottlenecks and economic sensitivities using Aspen XPIMS." },
     { year: "2024", client: "Bangchak SRC", location: "Thailand", tech: "AVEVA", logo: "/logos/bangchak.png", description: "Developed a multi-period planning model from a legacy tool to AVEVA USC Plan, including model building, FAT/SAT, and training." },
@@ -33,12 +33,12 @@ const projectsData = {
     { year: "2019-20", client: "Astron Energy", location: "South Africa", tech: "AVEVA", logo: "/logos/astron.png", description: "Converted an existing LP model to AVEVA USC Plan with full integration into the AUSC Crude Assay Manager." },
   ],
   Scheduling: [
-    { year: "2026", client: "Shell Energy", location: "Europe", tech: "AspenTech", logo: "/logos/shell.png", description: "Modified existing APS models to handle decommissioned units and major turnaround inter-site transfers." },
-    { year: "2026", client: "EGPC", location: "Egypt", tech: "AspenTech", logo: "/logos/egpc.png", description: "Modified APS/MBO models across nine sites, resolved and validated testing issues with stakeholders, and delivered user training batches." },
+    { year: "2026", client: "Shell Energy", location: "Europe", tech: "AspenTech", logo: "/logos/shell.png", description: "Implemented custom logic in the AUS model for accurate yield predictions while seamlessly transferring AUP data via Aspen Unified Catalog." },
+    { year: "2026", client: "EGPC", location: "Egypt", tech: "AspenTech", logo: "/logos/egpc.png", description: "Modified APS and MBO models across 9 sites, resolved testing comments, validated resolutions with stakeholders, and delivered 3 training batches." },
     { year: "2026", client: "Aster", location: "Singapore", tech: "AspenTech", logo: "/logos/aster.png", description: "Configured stream routings, integrated SMC files, updated assay EIUs and ARW reports, and successfully deployed models to production." },
     { year: "2025-26", client: "SATORP", location: "Saudi Arabia", tech: "AspenTech", logo: "/logos/satorp.png", description: "Developed deeply integrated Petrochemical (APS) and Polymer (PS) scheduling models for the AMIRAL complex." },
     { year: "2025-26", client: "Shell Refinery", location: "Asia", tech: "AspenTech", logo: "/logos/shell.png", description: "Converted a scheduling model from APS to Aspen Unified Scheduling with custom JavaScript logic." },
-    { year: "2024-25", client: "Shell Energy", location: "Rheinland", tech: "AspenTech", logo: "/logos/shell.png", description: "Modified existing APS models to handle decommissioned units and major turnaround inter-site transfers." },
+    { year: "2024-25", client: "Shell Energy", location: "Europe", tech: "AspenTech", logo: "/logos/shell.png", description: "Modified existing APS models to handle decommissioned units and major turnaround inter-site transfers." },
     { year: "2022-23", client: "MPC", location: "US", tech: "AspenTech", logo: "/logos/mpc.png", description: "Developed and deployed 5 APS scheduling models with bulk event automation across 19 crude network desks." },
     { year: "2022-23", client: "Dangote", location: "Nigeria", tech: "MS Excel", logo: "/logos/dangote.png", description: "Built a custom Excel-based refinery-wide scheduling and single/multi-grade gasoline blend optimization model." },
     { year: "2022-23", client: "OQ", location: "Oman", tech: "AspenTech", logo: "/logos/oq.png", description: "Provided PMC services to design and execute APS outbound integrations into the OQ Integrated Management System (IMS)." },

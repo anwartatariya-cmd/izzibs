@@ -13,14 +13,16 @@ const getAssetPath = (path) => {
 const employees = [
   { id: 1, name: 'Anwar Tatariya', position: 'Managing Partner', imageUrl: getAssetPath('Team Pics/Anwar PP.png') },
   { id: 2, name: 'Gazala Tatariya', position: 'Partner', imageUrl: getAssetPath('Team Pics/Gazala Hijab.jpg') },
-  { id: 3, name: 'Vishal Bhalala', position: 'Technical Lead', imageUrl: getAssetPath('Team Pics/Vishal.png') },
+  { id: 3, name: 'Vishal Bhalala', position: 'Director - Services', imageUrl: getAssetPath('Team Pics/Vishal.png') },
   { id: 4, name: 'Kishan Shukla', position: 'Team Lead', imageUrl: getAssetPath('Team Pics/Kishan.jpg') },
   { id: 7, name: 'Nikunj Nakum', position: 'Consultant', imageUrl: getAssetPath('Team Pics/Nikunj.jpg') },
-  { id: 8, name: 'Shrey Choksi', position: 'Analyst', imageUrl: getAssetPath('Team Pics/Shrey.jpg') },
+  { id: 8, name: 'Shrey Choksi', position: 'Senior Analyst', imageUrl: getAssetPath('Team Pics/Shrey.jpg') },
   { id: 9, name: 'Manav Joisar', position: 'Analyst', imageUrl: getAssetPath('Team Pics/Maanav.jpg') },
   { id: 10, name: 'Isha Jasani', position: 'Analyst', imageUrl: getAssetPath('Team Pics/Isha.jpg') },
   { id: 12, name: 'Sohil Jethava', position: 'Analyst', imageUrl: getAssetPath('Team Pics/Sohil J.jpg') },
   { id: 13, name: 'Sugat Tembhurne', position: 'Analyst', imageUrl: getAssetPath('Team Pics/Sugat.jpeg') },
+  { id: 14, name: 'Aquil Attar', position: 'Analyst', imageUrl: getAssetPath('Team Pics/Aquil.jpg') },
+  { id: 15, name: 'Abhi Rana', position: 'Analyst', imageUrl: getAssetPath('Team Pics/Abhi.jpg') },
 ];
 
 const lifeAtIzzibsData = [
